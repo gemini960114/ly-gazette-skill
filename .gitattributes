@@ -1,0 +1,2 @@
+# 文字檔一律 LF：md 的 frontmatter 解析與行號引用依賴一致的換行
+* text=auto eol=lf

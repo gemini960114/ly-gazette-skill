@@ -1,0 +1,27 @@
+# 公報原始檔（約 3.3 GB，可用 gazette_downloader 重新下載）
+output/legislative_communiques/2026_DOC/
+*.doc
+*.docx
+*.part
+*.zip
+
+# 機密
+.env
+*.key
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Claude Code 個人設定
+.claude/settings.local.json
+# skill 實體在 .agents/skills/；.claude 這邊是本機連結（junction / symlink），不進版控，見 README「安裝」
+.claude/skills/legislative-records
+
+# 編輯器與系統檔
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
